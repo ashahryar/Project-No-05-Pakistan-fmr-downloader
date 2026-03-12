@@ -1,47 +1,6 @@
-# Python
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.Python
-*.egg
-*.egg-info/
-dist/
-build/
-.eggs/
-
-# Virtual Environment
-venv/
-env/
+*.pyc
 .env
-.venv
-
-# AWS Credentials — KABHI PUSH MAT KARO!
-.aws/
-credentials
-*.pem
-*.key
-
-# Lambda Layer build files
-python/
 *.zip
-bs4_layer/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-logs/
-
-# Environment variables — secrets yahan hote hain
-.env
-.env.local
-.env.production
+python/
+.aws/
